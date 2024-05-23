@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <title> Live Virtual Class</title>
+     <link rel="stylesheet" href="link1.css">
+     <script src="valid1.js"></script>
+     <style>
+        h2{background-color: white;}
+       ul li{display: inline; padding: 80px;}
+       a{color:black}
+       a:hover{color:blue}
+       .ab{
+        margin:auto;
+       }
+       .f{
+        background-color: #e5f8ff;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+       }
+       </style>
+ </head>
+ 
+ 
+ <body>
+     <header style="background-color: white;">
+         <h1 style="background-color: black;color: white; text-align: center;"> Live Virtual Class</h1>
+ 
+ <header>
+ <h2 style="text-align: center;">!!..CLasses For All..!!</h2><br>
+ 
+ <nav>
+     <ul style="text-align: center;">
+         <li><a href="demo.html">Home</a></li>
+         <li><a href="courses.html">Courses</a></li>
+         <li><a href=reg.html>Enroll</a></li>
+         <li>Gallery</li>
+         <li><a href=contact.html>Contact</a></li>
+     </ul>  <br> 
+     </nav>
+ 
+   
+ </header>
+
+<section>
+        <form onsubmit="return jfun1()" class="f" method="post">
+            <h1><u>Registration Form</u></h1><br>
+            <label for="n">Name:</label>
+            <input type="text" id="n" name="n" required><br><br>
+            <label for="e">Email:</label>
+            <input type="email" id="e" name="e" required><br><br>
+            <label for="l">Location</label>
+            <input type="text"  id="l" name="l" required><br><br>
+            <label for="m">Male:</label>
+            <input type="radio" id="m" name="m" value="Gender"><br><br>
+            <label for="f">Female:</label>
+            <input type="radio" id="f" name="f" value="Gender"><br><br>
+            <label for="o">Other:</label>
+            <input type="radio" id="o" name="o" value="Gender"><br><br>
+            <label for="c">Course:</label>
+            <select name="c" id="c">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+            <option value="boot">BOOTSTRAP</option>
+            </select>
+            <br><br>
+            <input type="submit" name="sub"/>
+          </form><br>
+
+          <article style="text-align: center;">
+            <h2> Welcome to Live Virtual Class</h2><br>
+            <p> Live Virtual Class is a platform that allows you to learn and teach online. It is a virtual classroom that allows you to interact with your students and teachers in real time. You can attend classes, ask questions, and participate in discussions from anywhere in the world. </p><br>
+
+        </article>
+
+        <table class="ab">
+            <tr>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="imgs/220px-HTML5_logo_and_wordmark.svg.webp" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Learn HTML</h5>
+                          <p class="card-text">Start at the beginning by learning HTML basics — an important foundation for building and editing web pages.</p>
+                          <a href="html1.html" class="btn btn-primary">View Course Outline</a>
+                        </div>
+                      </div>
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="imgs/220px-CSS3_logo.svg.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Learn CSS</h5>
+                            <p class="card-text">In this CSS tutorial, you will learn how to add CSS to visually transform HTML into eye-catching sites.</p>
+                            <a href="css.html" class="btn btn-primary">View Course Outline</a>
+                        </div>
+                    </div>
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="imgs/220px-Unofficial_JavaScript_logo_2.svg.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Learn JS</h5>
+                            <p class="card-text">Learn how to use JavaScript — a powerful and flexible programming language for adding website interactivity.</p>
+                            <a href="js.html" class="btn btn-primary">View Course Outline</a>
+                        </div>
+                    </div>
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <div class="card" style="width: 18rem;"><br>
+                        <img src="imgs/220px-Bootstrap_logo.svg.webp" class="card-img-top"><br>
+                        <div class="card-body">
+                            <h5 class="card-title">Learn BOOTSTRAP</h5>
+                            <p class="card-text">Give your website a clear layout and polished style—fast! Learn how to use one of the most popular front-end frameworks, Bootstrap 4!</p>
+                            <a href="boot.html" class="btn btn-primary">View Course Outline</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+    
+        </table><br>
+
+    </section>
+
+    <footer>
+        <p><b>Designed & Developed By:</b> <i>Vish</i></p>
+    </footer>
+
+</body>
+</html>
